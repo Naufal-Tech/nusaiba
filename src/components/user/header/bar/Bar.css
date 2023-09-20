@@ -1,0 +1,15 @@
+.top-bar {
+  height: 75px;
+  padding: 0 4rem;
+}
+
+.bar-title h1 {
+  font-size: 2vw;
+}
+
+@media (max-width: 1160px) {
+  .bar-loc,
+  .bar-mail {
+    display: none !important;
+  }
+}
